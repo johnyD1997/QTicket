@@ -148,7 +148,8 @@
     <script>
       function selectBand(id) {
         let redirect = new URL(
-          `${window.location.origin}./buy-tickets-page/index.html`
+        "https://johnyd1997.github.io/QTicket/buy-tickets-page/index.html"
+          // `${window.location.href}buy-tickets-page/index.html`
         );
         redirect.searchParams.append("id", id);
         window.location.href = redirect.href;
