@@ -148,7 +148,7 @@
     <script>
       function selectBand(id) {
         let redirect = new URL(
-          `${window.location.origin}/src/buy-tickets-page/buy-tickets.html`
+          `${window.location.origin}/buy-tickets-page/buy-tickets.html`
         );
         redirect.searchParams.append("id", id);
         window.location.href = redirect.href;

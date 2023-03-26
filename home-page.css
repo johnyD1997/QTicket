@@ -28,7 +28,7 @@ header {
   justify-content: flex-start;
   align-items: center;
   padding: 1rem;
-  background-image: url(../images/header-bg.jpeg);
+  background-image: url(./images/header-bg.jpeg);
   background-size: cover;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */

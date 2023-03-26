@@ -72,7 +72,7 @@ html {
 		display: flex;
 		flex-direction: column;
 		text-align: center;
-		margin: 20px 0px;
+		margin: 30px;
 		padding: 5px;
 
 		/* outline: 2px solid yellow; */
@@ -83,8 +83,8 @@ html {
 		flex-direction: column;
 		margin-bottom: 30px;
 		justify-content: center;
-		background-color: lightgray;
-		box-shadow: 0 5px 5px -0 rgba(0, 0, 0, 0.5);
+		/* background-color: lightgray; */
+		/* box-shadow: 0 5px 5px -0 rgba(0, 0, 0, 0.5); */
 		padding: 10px 0 10px;
 	}
 
@@ -163,7 +163,7 @@ html {
 		text-align: center;
 		margin: 20px 0px;
 		/* padding: 5px; */
-		background-color: lightgray;
+		/* background-color: lightgray; */
 		box-shadow: 0 5px 5px -0 rgba(0, 0, 0, 0.5);
 		/* outline: 2px solid yellow; */
 	}
@@ -309,9 +309,10 @@ html {
 		justify-content: center;
 		flex-direction: row;
 		text-align: center;
-		margin: 20px 0px;
-		/* padding: 5px; */
-		background-color: lightgray;
+		margin: 20px 40px;
+		border: 1px solid #bebebe;
+		padding: 20px;
+		/* background-color: lightgray; */
 		box-shadow: 0 5px 5px -0 rgba(0, 0, 0, 0.5);
 		/* outline: 2px solid yellow; */
 	}
@@ -395,9 +396,10 @@ html {
 		justify-content: center;
 		flex-direction: column;
 		text-align: center;
-		margin: 20px 0px;
-		/* padding: 5px; */
-		background-color: lightgray;
+		margin: 20px 40px;
+		padding: 20px;
+		border: 1px solid #bebebe;
+		/* background-color: lightgray; */
 		box-shadow: 0 5px 5px -0 rgba(0, 0, 0, 0.5);
 		/* outline: 2px solid yellow; */
 	}
@@ -450,7 +452,7 @@ html {
 		background-color: #1E2761;
 		padding: 40px 10px;
 		color: white;
-		box-shadow: 0 5px 5px -0 rgba(0, 0, 0, 0.5);
+		box-shadow: 5px 5px 5px -0 rgba(0, 0, 0, 0.5);
 	}
 
 	footer p {

@@ -101,7 +101,7 @@ async function loadCity() {
     const ConfirmBTN = document.getElementById('confirmBtn');
     ConfirmBTN.addEventListener('click', function(){
       let redirect = new URL(
-    `${window.location.origin}/src/payment-method/payment-method.html`
+    `${window.location.origin}/payment-method/payment-method.html`
     );
     redirect.searchParams.append('total',totalInt);
     redirect.searchParams.append('id',bandId);
